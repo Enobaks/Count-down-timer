@@ -1,0 +1,133 @@
+@font-face {
+    src: url(../Fonts/Adobe\ Clean\ Light.ttf);
+    font-family: adobe clean;
+}
+
+@font-face{
+    src: url(../Fonts/Adobe\ Clean.ttf);
+    font-family: adobe clean-bold;
+}
+
+@font-face{
+    src: url(../Fonts/Adobe\ Clean\ Black.ttf);
+    font-family: adobe clean-heavy;
+}
+
+.fa-arrow-left{
+    margin-right: 10px;
+    color: #30bbb5;
+    font-size: 16px;
+}
+.user-fist{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px 20px 10px 0px;
+    border-radius: 20px;
+    margin: 20px 20px 10px 0px;
+}
+.user-fist-txt{
+    margin-left: 30px;
+    width: 100%;
+}
+
+.user-fist img{
+    width: 210px;
+    height: 150px;
+    border-radius: 100px;
+    border: 5px solid #30BBB5;
+}
+.user-name{
+    font-family: adobe clean-bold;
+    font-weight: 800;
+}
+.user-address{
+    font-size: 17px;
+}
+
+.user-mail, .user-date{
+    background: #e2e3ec;
+    padding: 0 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 60%;
+}
+
+.user-date{
+    background: #F7D9F2 !important;
+    font-weight: 900;
+    font-size: 14px;
+    margin-top: 20px;
+    width: fit-content !important;
+}
+.user-contact{
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+.user-phone{
+    margin-top: 20px;
+}
+.user-phone i{
+    margin-right: 7px;
+    color: #7e7f80;
+}
+
+.disabled{
+    opacity: .3;
+    /* background: #7946c1 !important; */
+}
+.user-footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+    align-items: center;
+    margin-top: 9rem;
+}
+.user-footer button{
+    border-radius: 20px !important;
+    height: 2.4rem;
+    outline: none;
+    border: none;
+    background-color: #7946c1;
+    width: 10rem;
+    color: white;
+    font-size: 13px;
+}
+.user-footer button i{
+    margin-right: 5px;
+    font-size: 14px;
+}
+.user-nxt-page span{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.user-nxt-page span i{
+    font-size: 13px
+}
+.user-left{
+    color: #353B76;
+    background: #E2E2EA;
+}
+.user-right{
+    color: #FCFCFC ;
+    background: #262A41;
+}
+.results-link{
+    color: black;
+}
+.results-link:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+
