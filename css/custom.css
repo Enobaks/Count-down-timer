@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    color: white;
+}
+
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background: #201E29;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.background svg.star{
+    width: 100%;
+    height: 70vh;
+}
+
+svg.hill{
+    height: 30vh;
+    width: 100%;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content h3{
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.count-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: fit-content;
+}
+
+.days{
+    width: 20%;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+.days div{
+    background: #34364F;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: .5px 8px 8px #1A1A24;
+}
+.days div h2{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #FA5E83;
+}
+
+.days div h2, .days small{
+    text-align: center;
+}
+.days small{
+    margin-top: 10px;
+    color: #4B4863;
+    font-weight: 700;
+}
+.icons{
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    align-items: flex-end;
+}
+.icons i{
+    font-size: 22px;
+    color: #8685A6;
+}
+.icons i:hover{
+    color: #3d3c4d;
+}
+
+@media screen and (max-width: 375px){
+    .count-down{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .days{
+        width: 22%;
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .days div{
+        background: #34364F;
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: .5px 8px 8px #1A1A24;
+    }
+    .days div h2{
+        font-size: 33px;
+        font-weight: bolder;
+        color: #FA5E83;
+    }
+    .days small{
+        font-size: 9px;
+    }
+    .icons{
+        width: 27%;
+    }
+}
